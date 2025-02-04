@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.Container {
+  background-color: #07080c;
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+  max-width: 635px;
+}
+.image {
+  height: 10%;
+  width: 50%;
+}
+.sub-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.para {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.btn-Brake {
+  background-color: transparent;
+  color: #cbd5e1;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  border-color: #cbd5e1;
+  border-width: 2px 2px;
+  cursor: pointer;
+}
+.speed-color {
+  color: #0b69ff;
+}
